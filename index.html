@@ -10,8 +10,54 @@
     <script  type="text/javascript" src="./index.js" async></script>
 </head>
 <body>
-    <div class="btn btn--blue">Button</div>
-    <div class="btn btn--purple">Button</div>
-    <div class="btn btn--green">Button</div>
+    <header class="wrapper wrapper-header">
+        <div>
+            <img src="./assets/logo.png" alt="recland" />
+        </div>
+        <nav class="wrapper-header__nav">
+            <ul class="wrapper-header__list">
+                <li class="wrapper-header__item btn">
+                    Tất Cả Các Job
+                </li>
+                <li class="wrapper-header__item btn btn-border">
+                    Đăng Ký
+                </li>
+                <li class="wrapper-header__item btn btn-solid">
+                    Đăng Nhập
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="banner">
+        <img src="./assets/banner.png" alt="banner" />
+    </div>
+    <main class="wrapper">
+        <div class="wrapper-search">
+            <form class="wrapper-search__form container-body">
+                <input class="search-input" type="text" />
+                <select class="search-select">
+                    <option value="" selected>Select your option</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                <button class="btn btn-solid">Tìm Kiếm</button>
+            </form>
+            <div class="wrapper-search__tag">
+                <span class="tag-label">Đề xuất:</span>
+                <ul class="tag-list">
+                    <li class="tag-item">ReactJs</li>
+                    <li class="tag-item">VueJs</li>
+                    <li class="tag-item">Angular</li>
+                    <li class="tag-item">Design</li>
+                    <li class="tag-item">.NET</li>
+                    <li class="tag-item">PHP</li>
+                    <li class="tag-item">Java</li>
+                    <li class="tag-item">Mobile</li>
+                </ul>
+            </div>
+        </div>
+
+    </main>
 </body>
 </html>
