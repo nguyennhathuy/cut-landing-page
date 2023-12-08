@@ -11,6 +11,7 @@ html, body {
     background: var(--light-invert-color-background, #F2F2F2);
 }
 
+
 .wrapper {
     max-width: 1160px;
     height: 80px;
